@@ -5,7 +5,7 @@ set -e
 # Display commands being run.
 set -x
 
-ls -a -l
+git init .
 
 git config get user.email
 git config get user.name
