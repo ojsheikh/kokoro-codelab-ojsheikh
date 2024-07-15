@@ -5,10 +5,10 @@ set -e
 # Display commands being run.
 set -x
 
+ls -a -l
+
 git config get user.email
 git config get user.name
-
-ls -a -l
 
 if [ "$1" == "release" ]; then
   javac -g:none Hello.java
