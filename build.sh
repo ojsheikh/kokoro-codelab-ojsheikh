@@ -6,6 +6,7 @@ set -x
 pwd
 
 git init .
+git config --global --add safe.directory /tmpfs/src/github/kokoro-codelab-ojsheikh
 git status
 
 git config get user.email
