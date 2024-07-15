@@ -1,11 +1,12 @@
 #!/bin/bash
 
-# Fail on any error.
-set -e
 # Display commands being run.
 set -x
 
+pwd
+
 git init .
+git status
 
 git config get user.email
 git config get user.name
